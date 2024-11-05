@@ -9,7 +9,7 @@ const Drawer = createDrawerNavigator();
 export default function Menu() {
     return (
       <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Login">    
+        <Drawer.Navigator initialRouteName="Register">    
           <Drawer.Screen name="Login" component={Login} />
           <Drawer.Screen name="Register" component={Register} />                  
         </Drawer.Navigator>
